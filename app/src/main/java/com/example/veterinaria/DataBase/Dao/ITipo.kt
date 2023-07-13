@@ -1,4 +1,4 @@
-package com.example.veterinaria.DataBase.Entitys.Dao
+package com.example.veterinaria.DataBase.Dao
 
 import androidx.room.Dao
 import androidx.room.Delete

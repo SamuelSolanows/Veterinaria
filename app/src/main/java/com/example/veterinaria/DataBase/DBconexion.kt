@@ -4,10 +4,10 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.veterinaria.DataBase.Entitys.Dao.IMascota
-import com.example.veterinaria.DataBase.Entitys.Dao.IRaza
-import com.example.veterinaria.DataBase.Entitys.Dao.ITipo
-import com.example.veterinaria.DataBase.Entitys.Dao.IVacuna
+import com.example.veterinaria.DataBase.Dao.IMascota
+import com.example.veterinaria.DataBase.Dao.IRaza
+import com.example.veterinaria.DataBase.Dao.ITipo
+import com.example.veterinaria.DataBase.Dao.IVacuna
 import com.example.veterinaria.DataBase.Entitys.Mascota
 import com.example.veterinaria.DataBase.Entitys.Raza
 import com.example.veterinaria.DataBase.Entitys.Tipo

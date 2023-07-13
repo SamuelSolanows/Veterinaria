@@ -1,4 +1,4 @@
-package com.example.veterinaria.DataBase.Entitys.Dao
+package com.example.veterinaria.DataBase.Dao
 
 import androidx.room.Dao
 import androidx.room.Delete
@@ -6,20 +6,20 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
-import com.example.veterinaria.DataBase.Entitys.Raza
+import com.example.veterinaria.DataBase.Entitys.Mascota
 import com.example.veterinaria.DataBase.Entitys.Tipo
 
 @Dao
-interface IRaza {
+interface IMascota {
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun Insertar(raza: Raza)
+    suspend fun Insertar(mascota: Mascota)
 
     @Update(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun Actualizar(raza: Raza)
+    suspend fun Actualizar(mascota: Mascota)
 
     @Delete
-    suspend fun Eliminar(raza: Raza)
+    suspend fun Eliminar(mascota: Mascota)
 
-    @Query("SELECT * FROM Raza")
-    fun Get(): List<Raza>
+    @Query("SELECT * FROM Mascota")
+    fun Get(): List<Mascota>
 }
