@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Veterinaria</string>
+    <string name="Raza_label">Raza</string>
+    <string name="Tipo_label">Tipo</string>
+    <string name="Mascota_label">Mascota</string>
+    <string name="Vacuna_label">Vacuna</string>
+
+</resources>

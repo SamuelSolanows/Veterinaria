@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shorcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/baseline_pets_24"
+        android:shortcutId="Raza"
+        android:shortcutLongLabel="@string/Raza_label"
+        android:shortcutShortLabel="@string/Raza_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.example.veterinaria.Raza"
+            android:targetPackage="com.example.veterinaria" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/baseline_pets_24"
+        android:shortcutId="Tipo"
+        android:shortcutLongLabel="@string/Tipo_label"
+        android:shortcutShortLabel="@string/Tipo_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.example.veterinaria.Tipo"
+            android:targetPackage="com.example.veterinaria" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/baseline_pets_24"
+        android:shortcutId="Vacuna"
+        android:shortcutLongLabel="@string/Vacuna_label"
+        android:shortcutShortLabel="@string/Vacuna_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.example.veterinaria.Vacuna"
+            android:targetPackage="com.example.veterinaria" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/baseline_pets_24"
+        android:shortcutId="Mascota"
+        android:shortcutLongLabel="@string/Mascota_label"
+        android:shortcutShortLabel="@string/Mascota_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.example.veterinaria.Mascota"
+            android:targetPackage="com.example.veterinaria" />
+    </shortcut>
+</shorcuts>
